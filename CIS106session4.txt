@@ -1,4 +1,6 @@
- Read and study the various built in functions within your programming language. Create a problem and solution in both pseudocode and program code using at least one built in function. Create a program that asks the user how old they are in years, and then calculate and display their approximate age in years, months, and days.
+ Read and study the various built in functions within your programming language.
+ Create a problem and solution in both pseudocode and program code using at least one built in function. 
+ Create a program that asks the user how old they are in years, and then calculate and display their approximate age in years, months, and days.
 
 Get years, year_age
 def year 
@@ -24,10 +26,12 @@ display_months(month)
 day = days()
 display_days(day)
 main()
-2.)The problem is to allow a user to enter student last name and two exam scores and determine a total score. Use a function to do this. The first exam score is worth 40% of the total score and the second exam is worth 60%. 
 
+2.)The problem is to allow a user to enter student last name and two exam scores and determine a total score. 
+Use a function to do this. The first exam score is worth 40% of the total score and the second exam is worth 60%. 
 Your functions should receive the two exam scores by value, determine the total and return the total score. 
 Display the student last name, two exam scores and the total. 
+
 Get name, name
 Get score one, score_one
 Get score two, score_two
@@ -49,9 +53,14 @@ Def main
 Total = total_score
 Display_results(total)
 Main()
-3.)“This problem entails allowing the user to enter the number of airlines tickets and cost per seat for a purchase. (We will assume all seats are the same price). You are to use a function that receives the number of tickets and price per seat and calculates the cost, tax (7% of cost) and total (cost + tax). Your function should “return” the cost, tax and total. Therefore, you should pass these arguments by reference. The number of tickets and price per ticket can be passed by value. 
 
+3.)“This problem entails allowing the user to enter the number of airlines tickets and cost per seat for a purchase. 
+(We will assume all seats are the same price). 
+You are to use a function that receives the number of tickets and price per seat and calculates the cost, tax (7% of cost) and total (cost + tax). 
+Your function should “return” the cost, tax and total. Therefore, you should pass these arguments by reference. 
+The number of tickets and price per ticket can be passed by value. 
 Display number of tickets, price per ticket, cost, tax and total.  
+
 Get the number of tickets, num_tickets
 Get the price per seats, price_per_seat
 Def cost_per_seats
